@@ -1,0 +1,3 @@
+<a href="{{route('companies.edit', $id)}}" data-toggle="tooltip" title="Edit" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;
+<a href="{{route('companies.show', $id)}}" data-toggle="tooltip" title="View" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>&nbsp;&nbsp;
+<a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-danger btn-sm deleteRecord" data-id="{{$id}}"><i class="fa fa-trash"></i></a>
